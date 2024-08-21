@@ -9,7 +9,6 @@ class Fabrica:
         print("Transporte con", self.llantas, "llantas, color", self.color, "y precio ", self.precio)
 
 
-# Clases que heredan de Fabrica
 class Moto(Fabrica):
     def __init__(self, color, precio):
         super().__init__(2, color, precio)
@@ -20,10 +19,8 @@ class Auto(Fabrica):
         super().__init__(4, color, precio)
 
 
-# Crear instancias de Moto y Auto
 mi_moto = Moto("Rojo", 1500)
 mi_auto = Auto("Azul", 10000)
 
-# Mostrar datos
 mi_moto.mostrar_datos()
 mi_auto.mostrar_datos()
