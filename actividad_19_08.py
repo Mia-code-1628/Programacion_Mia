@@ -19,8 +19,8 @@ class Auto(Fabrica):
         super().__init__(4, color, precio)
 
 
-mi_moto = Moto("Rojo", 1500)
-mi_auto = Auto("Azul", 10000)
+moto = Moto("Rojo", 1500)
+auto = Auto("Azul", 10000)
 
-mi_moto.mostrar_datos()
-mi_auto.mostrar_datos()
+moto.mostrar_datos()
+auto.mostrar_datos()
