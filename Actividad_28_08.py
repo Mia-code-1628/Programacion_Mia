@@ -23,11 +23,9 @@ class Auto(Vehiculo):
     def __init__(self, color, precio):
         super().__init__(llantas=4, color=color, precio=precio)
 
-# Crear objetos de Moto y Carro
 moto1 = Moto("Verde", 150000)
 auto1 = Auto("Negro", 99000)
 
-# Mostrar atributos de los vehículos
 moto1.mostrar_atributos()
 moto1.aplicar_descuento()
 
